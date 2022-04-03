@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "lint": "exit 0;",
-    "serve": "vite --port 8080&tauri dev",
     "serve:web": "vite --port 8080 --host",
     "serve:native": "VITE_HTTP_HANDLER=NATIVE vite --port 8080",
     "serve:tauri": "tauri dev",
