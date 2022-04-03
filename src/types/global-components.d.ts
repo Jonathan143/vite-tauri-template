@@ -6,6 +6,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AButton: typeof import('@arco-design/web-vue')['Button']
     AEmpty: typeof import('@arco-design/web-vue')['Empty']
+    AResult: typeof import('@arco-design/web-vue')['Result']
     HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
   }
 }

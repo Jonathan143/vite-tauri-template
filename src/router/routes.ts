@@ -13,8 +13,13 @@ export const routes: RouteRecordRaw[] = [
     component: () => import('@/views/home/index.vue'),
   },
   {
+    path: '/result-page',
+    name: 'resultPage',
+    component: () => import('@/views/system/result-page/index.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'notFound',
-    component: () => import('@/views/system/not-found/index.vue'),
+    component: () => import('@/views/system/result-page/index.vue'),
   },
 ]
